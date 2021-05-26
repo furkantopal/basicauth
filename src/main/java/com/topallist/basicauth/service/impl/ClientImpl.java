@@ -28,7 +28,7 @@ public class ClientImpl implements Client {
 
   @Autowired
   ApiProperties apiProperties;
-  String token;
+  private String token;
 
   @PostConstruct
   private void postConstruct() throws IOException {
